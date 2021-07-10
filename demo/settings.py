@@ -15,6 +15,8 @@ from pathlib import Path
 # heroku back end
 import django_heroku
 
+import dj_database_url
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -88,16 +90,11 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'd7bq8gm1c9simg',
-#         'USER': 'omuhipyhqqbsyl',
-#         'PASSWORD': '12d3ea758cccb0eb9af8e2d5f5a43821f255e32e4083ec1c8f25e6edfbacfd55',
-#         'HOST': 'ec2-52-202-152-4.compute-1.amazonaws.com',
-#         'PORT': '5432',
-#     }
-# }
+import dj_database_url
+
+DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
+
+
 
 
 # Password validation
