@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'destination',
+        'NAME': 'd7bq8gm1c9simg',
         'USER': 'omuhipyhqqbsyl',
         'PASSWORD': '12d3ea758cccb0eb9af8e2d5f5a43821f255e32e4083ec1c8f25e6edfbacfd55',
         'HOST': 'ec2-52-202-152-4.compute-1.amazonaws.com',
