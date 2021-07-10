@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'd95l6d88h4k54t',
+        'ENGINE': 'django.db.backends.d7bq8gm1c9simg',
         'NAME': 'destination',
         'USER': 'omuhipyhqqbsyl',
         'PASSWORD': '12d3ea758cccb0eb9af8e2d5f5a43821f255e32e4083ec1c8f25e6edfbacfd55',
