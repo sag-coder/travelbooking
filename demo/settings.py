@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-llf+s%wl!7$6ddc-)(%(e6bvzsis3!vzb64p*g14%c9j1!g=m*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False #defult True
 
-ALLOWED_HOSTS = ['calm-sea-09768.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['pacific-reef-47961.herokuapp.com','127.0.0.1']
 
 
 # Application definition
