@@ -15,7 +15,7 @@ from pathlib import Path
 # heroku back end
 import django_heroku
 
-import dj_database_url
+# import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -90,6 +90,13 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 #         # 'CONN_MAX_AGE': 500
 #     }
 # }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 import dj_database_url
 
